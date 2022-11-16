@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #04ee75;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+
+th div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+}
+
+/* .table-container */
+.table-container {
+    width: fit-content;
+}
+
+.table-container table {
+    width: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 4px;
+}
+
+/* .button-container */
+.button-container {
+    text-align: right;
+}
+
+.button-container * {
+    margin: 0 0 10px 10px;
+    background-color: #13a158;
+    border: none;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 4px;
+}
+
+.button-container *:active {
+    background-color: #a16d0b;
+}
+
+/* sorting */
+.sorting th {
+    background-color: #83a38c;
+}
+
+/* filtering */
+.filtering th {
+    background-color: #83a38c;
+}
+
+.personID {
+    width: 103px;
+}
+
+.age {
+    width: 96px;
+}
+
+.ethnicity {
+    width: 146px;
+}
+
+.race {
+    width: 102px;
+}
+
+.age-filter {
+    display: flex;
+    flex-direction: column;
+}
+
+.age-filter label {
+    width: 33px;
+}
+
+.age-filter input {
+    width: 30px;
+}
+
+/* .pagination */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 0;
+}
+
+.pagination ul {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 4px;
+}
+
+.pagination form {
+    display: flex;
+    align-items: center;
+}
+
+.pagination input {
+    width: 61px;
+    height: 34px;
+    text-align: center;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pagination button {
+    background-color: #13a158;
+    border: none;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 4px;
+}
+
+.pagination button:active {
+    background-color: #a16d0b;
+}
+
+.pagination li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* patient */
+.patient-brief {
+    text-align: start;
+}
