@@ -1,1 +1,1 @@
-https://genie-pagination-h-genie.koyeb.app
+https://genie-pagination.onrender.com
